@@ -1,0 +1,23 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+H1 {
+  font-size: 2em;
+  margin: 0px;
+  padding: 0px;
+  color: #ff6434;
+}
+hr {
+  height: 1px;
+  border-color: darkblue;
+}
+img {
+  border-radius: 5%;
+  margin: 15px;
+  float: left;
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1;
+  box-shadow: 2px 2px #ff6434;
+}

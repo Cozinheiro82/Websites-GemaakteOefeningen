@@ -1,0 +1,12 @@
+hr {
+  color: #003653;
+  height: 1px;
+  width: 100%;
+}
+table {
+  border: solid 1px grey;
+  padding: 15px;
+}
+#entiteit {
+  border-collapse: collapse;
+}
