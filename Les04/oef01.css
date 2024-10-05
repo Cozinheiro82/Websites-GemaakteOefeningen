@@ -1,12 +1,16 @@
-hr {
-  color: #003653;
-  height: 1px;
-  width: 100%;
-}
-table {
+#entiteit {
   border: solid 1px grey;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+}
+th {
+  background-color: darkblue;
+  color: white;
   padding: 15px;
 }
-#entiteit {
+td {
+  border: solid 1px grey;
   border-collapse: collapse;
+  padding: 15px;
 }
