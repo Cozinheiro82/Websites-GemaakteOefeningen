@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkblue;
+}
+.image {
+  width: 400px;
+}
+li {
+  margin: 0px;
+  padding: 3px;
+}
+ol {
+  background-color: #ff6434;
+  color: white;
+}
+ul {
+  background-color: darkblue;
+  color: white;
+}
+.container {
+  padding: 20px;
+  max-width: 400px;
+}
