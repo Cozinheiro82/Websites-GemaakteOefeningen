@@ -1,0 +1,37 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  color: #ff6434;
+  font-weight: bold;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: lightgray solid 1px;
+}
+caption {
+  caption-side: bottom;
+  padding: 20px;
+  font-size: small;
+}
+#image {
+  width: 150px;
+}
+td,
+th {
+  border: lightgray solid 1px;
+}
+.nadruk {
+  font-weight: bold;
+}
+tr {
+  height: 50px;
+}
+#startdag {
+  color: white;
+  background-color: #ff6434;
+  font-size: 32px;
+  font-family: dancing script;
+}

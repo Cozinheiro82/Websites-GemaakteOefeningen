@@ -1,0 +1,14 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+.inputBackground {
+  background-color: lightblue;
+}
+.inputBackground:hover {
+  background-color: white;
+}
+
+form {
+  width: 40%;
+}
