@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="les05-oef02.css">
+    <title>les05-oef02</title>
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div><label for="voornaam">Voornaam:</label>
+        </div>
+        <div><input type="text" name="Voornaam" id="voornaam" placeholder="Stijn"></div>
+        <div><label for="naam">Naam:</label>
+        </div>
+        <div><input type="text" name="Naam" id="naam" placeholder="Lenaerts"></div>
+        <div>
+            <label for="gebruikersnaam">Gebruikersnaam:</label>
+        </div>
+        <div><input type="text" name="Gebruikersnaam" id="gebruikersnaam" placeholder="mail@thomasmore.be"></div>
+        <div>
+            <label for="nickname">Nickname:</label>
+        </div>
+        <div><input type="text" name="Nickname" id="nickname" placeholder="Kies een Nickname" required minlength="5" maxlength="15"></div>
+        <div>
+            <label for="paswoord">Paswoord:</label>
+        </div>
+        <div><input type="password" name="Herhaal paswoord" id="Paswoord" placeholder="Kies een veilig wachtwoord" required></div>
+        <div>
+            <div>
+                <label for="herhaalPaswoord">Herhaal paswoord:</label>
+            </div>
+        <div><input type="password" name="Herhaal Paswoord" id="herhaalPaswoord" placeholder="Herhaal je paswoord" required></div>
+        <div>
+        <div>
+            <label for="verzenden">
+                <input type="submit" value="Registreren" id="registreren" name="Registreren"> 
+            </label>
+        </div>
+    </form>
+  </body>
+</html>

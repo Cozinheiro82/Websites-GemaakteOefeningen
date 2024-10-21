@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registreren</h1>
+      <form action="https://tm-statweb.be/forms.php" method="post">
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Voornaam</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationTooltip01"
+            name="voornaam"
+            value=""
+            required
+          />
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Achternaam</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationTooltip02"
+            name="achternaam"
+            value=""
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">E-mailadres</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            name="email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Wachtwoord</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            name="password"
+          />
+        </div>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            role="switch"
+            id="flexSwitchCheckDefault"
+            name="terms"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"
+            >Accepteer onze <a href="#">algemene voorwaarden.</a></label
+          >
+        </div>
+
+        <br />
+        <button type="submit" class="btn btn-primary">Registreren</button>
+      </form>
+    </div>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

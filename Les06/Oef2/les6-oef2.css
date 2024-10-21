@@ -1,0 +1,30 @@
+body {
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header" "aside main" "footer footer";
+  grid-template-columns: 200px auto;
+  text-align: center;
+  gap: 10px;
+}
+.header {
+  padding: 50px;
+  grid-area: header;
+  background-color: lightblue;
+}
+.aside {
+  padding: 150px 0px;
+  grid-area: aside;
+  background-color: green;
+}
+.main {
+  padding: 150px;
+  grid-area: main;
+  background-color: black;
+}
+.footer {
+  padding: 20px;
+  grid-area: footer;
+  background-color: orange;
+}

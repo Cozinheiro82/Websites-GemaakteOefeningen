@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+}
+input {
+  box-shadow: 5px 5px lightgray;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  font-size: small;
+  width: 50%;
+}
